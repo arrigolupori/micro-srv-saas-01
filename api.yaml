@@ -3,6 +3,9 @@ info:
   title: Sample API
   description: Test
   version: 0.0.1
+servers:
+  - url: http://localhost:3000
+    description: Sandbox server (uses test data)
 paths:
   /:
     get:
