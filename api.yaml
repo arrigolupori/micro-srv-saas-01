@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  description: Test
+  version: 0.0.1
+paths:
+  /:
+    get:
+      summary: Returns hello world object.
+      description: Lorem ipsum dolor sit amet.
+      responses:
+        "200":
+          description: A JSON object with hello world
+          content:
+            application/json:
+              schema:
+                items:
+                  type: string
